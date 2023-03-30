@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Luckiest+Guy&family=Montserrat&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* start page  */
+
+.page1
+{
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url("../assets/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #00CC8E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page1 > a {
+    width: 100px;
+    height: 100px;
+    color: black;
+    border: 10px solid #038373;
+    background-color: #00ffb3;
+    border-radius: 100%;
+    cursor: pointer;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* page 2  */
+
+/* nav bar  */
+
+nav
+{
+    background-color: #038373;
+    color: white;
+    padding: 20px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+nav > ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.icon
+{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: rgba(245, 245, 245, 0.5);
+    border-radius: 100%;
+}
+
+.icon:hover
+{
+    scale: 1.1;
+}
+
+/* table  */
+
+.table
+{
+    /* background-color: #03837441; */
+    background-color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 70%;
+    font-weight: bold;
+}
+
+.table > .row > div 
+{
+    width: 70px;
+    height: 70px;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: bisque; */
+}
+
+.alpha , .num {
+    font-size: 150%;
+    color: #00CC8E;
+    font-weight: bolder;
+}
+
+.color 
+{
+    background-color: #00CC8E;
+}
+
+
+/* footer  */
+
+.footer
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    background-color: #005e53;
+    height: 7.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer a 
+{
+    font-size: 13px;
+    text-decoration: none;
+    color: whitesmoke;
+}
